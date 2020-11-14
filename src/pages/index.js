@@ -1,7 +1,7 @@
 import React from 'react';
 
 const HomePage = () => (
-    <main data-testid="peddler-index">
+    <main data-testid="nextjs-index">
         <section>
             <h1>Homepage</h1>
         </section>

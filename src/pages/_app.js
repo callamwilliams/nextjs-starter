@@ -10,7 +10,7 @@ import { wrapper } from '../store/configureStore';
 const App = ({ Component, pageProps }) => (
     <>
         <Head>
-            <title>Peddler</title>
+            <title>NextJS Starter</title>
             <meta property="og:title" content="LPG Site Title" key="title" />
             <meta name="theme-color" content="#5bbad5" />
             <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png" />
