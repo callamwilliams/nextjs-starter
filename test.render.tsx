@@ -33,7 +33,7 @@ const customRender = (
 ): RenderResult => {
     const Providers = ({ children }) => (
         <Provider store={store}>
-            <ThemeProvider theme={}>
+            <ThemeProvider theme={{}}>
                 <RouterContext.Provider value={{ ...mockRouter, ...router }}>
                     <GlobalStyle />
                     {children}

@@ -1,8 +1,9 @@
 import React from 'react';
+
 import { Wrapper } from './styles';
 
 interface OverlayProps {
-    handleClick: (event: any) => void;
+    handleClick?: (event: any) => void;
     opacity?: number;
 }
 
@@ -11,4 +12,5 @@ const Overlay: React.FC<OverlayProps> = ({ handleClick, children, opacity, ...pr
         {children}
     </Wrapper>
 );
+
 export default Overlay;

@@ -1,7 +1,5 @@
 import React from 'react';
 
-import { Overlay } from '../components/Overlay';
-
 import type { AppProps } from 'next/app';
 import Head from 'next/head';
 import { withRouter } from 'next/router';
@@ -12,6 +10,7 @@ import 'normalize.css';
 import '../styles/core.css';
 import BasicModal from '../components/Modals/BasicModal';
 import ModalContainer from '../components/Modals/ModalContainer';
+import Overlay from '../components/Overlay';
 import { ModalTypes } from '../enums/ModalTypes';
 import { wrapper } from '../store/configureStore';
 import { getActiveModal } from '../store/selectors/modals';
