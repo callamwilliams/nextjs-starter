@@ -4,7 +4,6 @@ module.exports = {
         'next',
         'next/core-web-vitals',
         'plugin:jest-dom/recommended',
-        'plugin:cypress/recommended',
         'plugin:prettier/recommended',
     ],
     globals: {
@@ -25,7 +24,7 @@ module.exports = {
         '@next/next/no-img-element': 'off',
         'react/react-in-jsx-scope': 'off',
         'react-hooks/rules-of-hooks': 'error',
-        'react-hooks/exhaustive-deps': 'off',
+        'react-hooks/exhaustive-deps': 'warn',
         'react/jsx-fragments': 'off',
         'react/prop-types': 'off',
         'react/require-default-props': 'off',

@@ -14,17 +14,6 @@ beforeAll(async () => {
 
 afterEach(() => fetchMock.resetMocks());
 
-export const useRouter = jest.spyOn(require('next/router'), 'useRouter');
-
-beforeEach(() => {
-    useRouter.mockImplementation(() => ({
-        route: '/',
-        pathname: '/',
-        query: '',
-        asPath: '',
-    }));
-});
-
 jest.mock('next/router', () => ({
     useRouter() {
         return {

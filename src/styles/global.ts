@@ -1,12 +1,4 @@
-import styled, { createGlobalStyle, css } from 'styled-components';
-
-export const GlobalStyle = createGlobalStyle`
-  // IE unsupported message
-  @media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
-    body { display: block!important; overflow: hidden; }
-    #browserSupport { display: flex; }
-  }
-`;
+import styled from 'styled-components';
 
 export const Main = styled.main`
     width: 100%;

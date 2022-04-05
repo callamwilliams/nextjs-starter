@@ -5,7 +5,7 @@ import { reducer } from './index';
 
 export const makeStore = () =>
     configureStore({
-        reducer: reducer,
+        reducer,
         middleware: (getDefaultMiddleware) =>
             getDefaultMiddleware()
                 .prepend

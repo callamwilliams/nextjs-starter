@@ -14,7 +14,7 @@ import Overlay from '../components/Overlay';
 import { ModalTypes } from '../enums/ModalTypes';
 import { wrapper } from '../store/configureStore';
 import { getActiveModal } from '../store/selectors/modals';
-import { GlobalStyle, Main, Page } from '../styles/global';
+import { Main, Page } from '../styles/global';
 
 const modals = [
     {
@@ -45,7 +45,6 @@ const App = ({ Component, pageProps }: AppProps) => {
             </Head>
 
             <ThemeProvider theme={{}}>
-                <GlobalStyle />
                 <header>header</header>
                 <Page>
                     <Main>
